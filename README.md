@@ -19,7 +19,7 @@ kasual agar menjadi anggota?
 
 Merupakan data perjalanan historis Cyclistic untuk menganalisis dan mengidentifikasi tren, yang merupakan data publik. Dataset yang digunakan, yaitu [Divvy 2019 Q1](https://docs.google.com/spreadsheets/d/1uCTsHlZLm4L7-ueaSLwDg0ut3BP_V4mKDo2IMpaXrk4/template/preview?resourcekey=0-dQAUjAu2UUCsLEQQt20PDA#gid=1797029090) dan [Divvy 2020 Q1](https://docs.google.com/spreadsheets/d/179QVLO_yu5BJEKFVZShsKag74ZaUYIF6FevLYzs3hRc/template/preview#gid=640449855).
 
-**1. Pembersihan dan Manipulasi Data**
+**1. Pembersihan dan Manipulasi Data menggunakan spreadsheet**
 
 Adapun langkah-langkah yang dilakukan:
 1. Membuka spreadsheet dan membuat kolom bernama ride_length.
