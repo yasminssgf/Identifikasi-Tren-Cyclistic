@@ -24,7 +24,7 @@ Merupakan data perjalanan historis Cyclistic untuk menganalisis dan mengidentifi
 Adapun langkah-langkah yang dilakukan:
 1. Membuka spreadsheet dan membuat kolom bernama ride_length.
 2. Menghitung durasi setiap perjalanan dengan mengurangi kolom start_time dari kolom end_time (misalnya, =C2-B2)
-3. Memformat sebagai HH:MM:SS menggunakan Format > Number > Duration > 37:30:55. 
+3. Memformat sebagai HH:MM:SS menggunakan Format > Cels > Time > 37:30:55. 
 4. Membuat kolom bernama day_of_week, dan menghitung hari dalam seminggu saat setiap perjalanan dimulai menggunakan perintah WEEKDAY (misalnya, =WEEKDAY(C2,1)) di setiap file.
 5. Memformat sebagai General atau sebagai angka tanpa desimal, bahwa 1 = Minggu dan 7 = Sabtu. 
 
