@@ -28,3 +28,8 @@ Adapun langkah-langkah yang dilakukan:
 4. Membuat kolom bernama day_of_week, dan menghitung hari dalam seminggu saat setiap perjalanan dimulai menggunakan perintah WEEKDAY (misalnya, =WEEKDAY(C2,1)) di setiap file.
 5. Memformat sebagai General atau sebagai angka tanpa desimal, bahwa 1 = Minggu dan 7 = Sabtu. 
 
+Langkah-langkah memriksa dan menangani data kosong:
+1. Gunkan filter untuk memfilter data
+2. Kemudian memeriksa apakah terdapat data "Blank"
+3. Pada data [Divvy 2020 Q1](https://docs.google.com/spreadsheets/d/179QVLO_yu5BJEKFVZShsKag74ZaUYIF6FevLYzs3hRc/template/preview#gid=640449855), pada kolom end_station_name terdapat 1 nilai kosong, setelah diperiksa pada kolom started_at dan kolom ended_at waktu yang ditunjukkan sama. Hal ini disebabkan kemungkinan karena ada kesalahan ada kesalahan input. Sehingga baris tersebut diputuskan untuk dihapus.
+4. Pada data [Divvy 2019 Q1](https://docs.google.com/spreadsheets/d/1uCTsHlZLm4L7-ueaSLwDg0ut3BP_V4mKDo2IMpaXrk4/template/preview?resourcekey=0-dQAUjAu2UUCsLEQQt20PDA#gid=1797029090), pada kolom gender dan birtyear terdapat beberapa baris data yang kosong. Untuk kasus ini data yang kosong akan dibiarkan, karena pada analysis data yang akan dilakukan tidak akan digunakan variabel gender dan tahun lahir pengguna.
