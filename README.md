@@ -33,3 +33,7 @@ Langkah-langkah memriksa dan menangani data kosong:
 2. Kemudian memeriksa apakah terdapat data "Blank"
 3. Pada data [Divvy 2020 Q1](https://docs.google.com/spreadsheets/d/179QVLO_yu5BJEKFVZShsKag74ZaUYIF6FevLYzs3hRc/template/preview#gid=640449855), pada kolom end_station_name terdapat 1 nilai kosong, setelah diperiksa pada kolom started_at dan kolom ended_at waktu yang ditunjukkan sama. Hal ini disebabkan kemungkinan karena ada kesalahan ada kesalahan input. Sehingga baris tersebut diputuskan untuk dihapus.
 4. Pada data [Divvy 2019 Q1](https://docs.google.com/spreadsheets/d/1uCTsHlZLm4L7-ueaSLwDg0ut3BP_V4mKDo2IMpaXrk4/template/preview?resourcekey=0-dQAUjAu2UUCsLEQQt20PDA#gid=1797029090), pada kolom gender dan birtyear terdapat beberapa baris data yang kosong. Untuk kasus ini data yang kosong akan dibiarkan, karena pada analysis data yang akan dilakukan tidak akan digunakan variabel gender dan tahun lahir pengguna.
+
+Langkah-langkah mengurutkan data:
+1. Gunakan fungsi short untuk mengurutkan data
+2. Data diurutkan berdasarkan variabel tanggal start, dari tanggal terkecil ke terbesar
