@@ -31,7 +31,7 @@ Adapun langkah-langkah yang dilakukan:
 Langkah-langkah memriksa dan menangani data kosong:
 1. Gunkan filter untuk memfilter data
 2. Kemudian memeriksa apakah terdapat data "Blank"
-3. Pada data [Divvy 2020 Q1](https://docs.google.com/spreadsheets/d/179QVLO_yu5BJEKFVZShsKag74ZaUYIF6FevLYzs3hRc/template/preview#gid=640449855), pada kolom end_station_name terdapat 1 nilai kosong, setelah diperiksa pada kolom started_at dan kolom ended_at waktu yang ditunjukkan sama. Hal ini disebabkan kemungkinan karena ada kesalahan ada kesalahan input. Sehingga baris tersebut diputuskan untuk dihapus.
+3. Pada data [Divvy 2020 Q1](https://docs.google.com/spreadsheets/d/179QVLO_yu5BJEKFVZShsKag74ZaUYIF6FevLYzs3hRc/template/preview#gid=640449855), terdapat satu baris dengan beberepa nilai variabel yang kosong, yaitu pada kolom end_station_name, end_station_id, end_lat, dan end_lng. Setelah diperiksa nilai pada variabel started_at dan variabel ended_at pada baris tersebut menunjukkan waktu yang sama, yang berarti sepeda tidak jadi digunakan. Maka variabel-variabel yang kosong tersebut diisi dengan nilai yang terdapat pada variabel start_station_name, start_station_id, start_lat, dan start_lng.
 4. Pada data [Divvy 2019 Q1](https://docs.google.com/spreadsheets/d/1uCTsHlZLm4L7-ueaSLwDg0ut3BP_V4mKDo2IMpaXrk4/template/preview?resourcekey=0-dQAUjAu2UUCsLEQQt20PDA#gid=1797029090), pada kolom gender dan birtyear terdapat beberapa baris data yang kosong. Untuk kasus ini data yang kosong akan dibiarkan, karena pada analysis data yang akan dilakukan tidak akan digunakan variabel gender dan tahun lahir pengguna.
 
 Langkah-langkah mengurutkan data:
