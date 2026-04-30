@@ -16,7 +16,8 @@ berbeda?
 kasual agar menjadi anggota?
 
 **Data yang digunakan**
-Merupakan data perjalanan historis Cyclistic untuk menganalisis dan mengidentifikasi tren, yang merupakan data publik. https://divvy-tripdata.s3.amazonaws.com/index.html  ini? Apakah data Anda ROCCC? 
+
+Merupakan data perjalanan historis Cyclistic untuk menganalisis dan mengidentifikasi tren, yang merupakan data publik. Dataset yang digunakan, yaitu [Divvy 2019 Q1](https://docs.google.com/spreadsheets/d/1uCTsHlZLm4L7-ueaSLwDg0ut3BP_V4mKDo2IMpaXrk4/template/preview?resourcekey=0-dQAUjAu2UUCsLEQQt20PDA#gid=1797029090) dan [Divvy 2020 Q1](https://docs.google.com/spreadsheets/d/179QVLO_yu5BJEKFVZShsKag74ZaUYIF6FevLYzs3hRc/template/preview#gid=640449855).
 
 **1. Pembersihan dan Manipulasi Data**
 Adapun langkah-langkah yang dilakukan:
