@@ -38,3 +38,13 @@ Langkah-langkah memriksa dan menangani data kosong:
 Langkah-langkah mengurutkan data:
 1. Gunakan fungsi short untuk mengurutkan data
 2. Data diurutkan berdasarkan variabel tanggal start, dari tanggal terlama ke terbaru.
+
+Langkah-langkah melakukan analisis deskriptif:
+1. Jalankan beberapa perhitungan dalam satu file: 
+* Menghitung rata-rata ride_length 
+* Menghitung ride_length maksimum 
+* Menghitung modus day_of_week
+2. Membuat tabel pivot untuk menghitung dan memvisualisasikan data dengan cepat: 
+* Menghitung rata-rata ride_length untuk anggota dan pengendara kasual. Tentukan rows = member_casual, Values = Average of ride_length. 
+* Menghitung rata-rata ride_length untuk pengguna berdasarkan day_of_week. Tentukan  columns = day_of_week, Rows = member_casual, Values = Average of ride_length.
+* Menghitung jumlah perjalanan untuk pengguna berdasarkan day_of_week dengan menambahkan Count dari trip_id ke Values. 
