@@ -28,7 +28,7 @@ Adapun langkah-langkah yang dilakukan:
 4. Membuat kolom bernama day_of_week, dan menghitung hari dalam seminggu saat setiap perjalanan dimulai menggunakan perintah WEEKDAY (misalnya, =WEEKDAY(C2,1)) di setiap file.
 5. Memformat sebagai General atau sebagai angka tanpa desimal, bahwa 1 = Minggu dan 7 = Sabtu. 
 
-Langkah-langkah memriksa dan menangani data kosong:
+Langkah-langkah memeriksa dan menangani data kosong:
 1. Gunkan filter untuk memfilter data
 2. Kemudian memeriksa apakah terdapat data "Blank"
 3. Pada data [Divvy 2020 Q1](https://docs.google.com/spreadsheets/d/179QVLO_yu5BJEKFVZShsKag74ZaUYIF6FevLYzs3hRc/template/preview#gid=640449855), terdapat satu baris dengan beberepa nilai variabel yang kosong, yaitu pada kolom end_station_name, end_station_id, end_lat, dan end_lng. Setelah diperiksa nilai pada variabel started_at dan variabel ended_at pada baris tersebut menunjukkan waktu yang sama, yang berarti sepeda tidak jadi digunakan. Maka variabel-variabel yang kosong tersebut diisi dengan nilai yang terdapat pada variabel start_station_name, start_station_id, start_lat, dan start_lng.
