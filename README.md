@@ -47,4 +47,34 @@ Langkah-langkah melakukan analisis deskriptif:
 2. Membuat tabel pivot untuk menghitung dan memvisualisasikan data dengan cepat: 
 * Menghitung rata-rata ride_length untuk anggota dan pengendara kasual. Tentukan rows = member_casual, Values = Average of ride_length. 
 * Menghitung rata-rata ride_length untuk pengguna berdasarkan day_of_week. Tentukan  columns = day_of_week, Rows = member_casual, Values = Average of ride_length.
-* Menghitung jumlah perjalanan untuk pengguna berdasarkan day_of_week dengan menambahkan Count dari trip_id ke Values. 
+* Menghitung jumlah perjalanan untuk pengguna berdasarkan day_of_week dengan menambahkan Count dari trip_id ke Values.
+
+
+# Perbedaan antara Anggota Tahunan dan Pengendara Kasual
+Analisis menunjukkan perbedaan perilaku yang sangat kontras antara kedua kelompok:
+
+**Durasi Perjalanan:** Pengendara kasual memiliki rata-rata durasi perjalanan yang jauh lebih lama, yaitu sekitar 84,87 menit, dibandingkan dengan anggota (member) yang hanya rata-rata 13,25 menit. Hal ini menunjukkan pengendara kasual cenderung menggunakan sepeda untuk rekreasi, sementara anggota menggunakannya untuk transportasi efisien (commuting).
+
+**Pola Mingguan:** Anggota memiliki jumlah perjalanan yang tinggi secara konsisten pada hari kerja (Senin-Jumat), sedangkan pengendara kasual menunjukkan peningkatan aktivitas yang signifikan pada akhir pekan (Hari 1/Minggu dan Hari 7/Sabtu).
+
+# Mengapa Pengendara Kasual Membeli Keanggotaan?
+Data mengidentifikasi beberapa faktor pendorong potensial:
+
+**Frekuensi Penggunaan:** Pengendara kasual yang mulai menggunakan sepeda pada hari kerja mungkin melihat keanggotaan sebagai cara yang lebih hemat untuk transportasi rutin.
+
+**Efisiensi Biaya pada Durasi Panjang:** Karena pengendara kasual memiliki durasi perjalanan yang sangat lama, mereka dapat dikonversi dengan menawarkan skema keanggotaan yang memberikan keuntungan untuk perjalanan durasi panjang atau frekuensi tinggi di akhir pekan.
+
+# Pengaruh Media Digital terhadap Taktik Pemasaran
+Media digital dapat digunakan untuk menargetkan segmen kasual berdasarkan temuan data:
+
+**Targeting Akhir Pekan:** Kampanye iklan digital dapat dioptimalkan pada hari Jumat dan akhir pekan, saat volume pengendara kasual berada pada puncaknya.
+
+**Pesan "Rekreasi ke Komuter":** Menggunakan media sosial untuk membagikan konten tentang kemudahan menggunakan Cyclistic untuk bekerja, menargetkan mereka yang saat ini hanya menggunakannya untuk durasi lama di akhir pekan.
+
+# Tren Sejarah Cyclistic (Q1 2019 vs Q1 2020)
+Pertumbuhan Pengguna: Terdapat tren peningkatan jumlah perjalanan dari tahun 2019 ke 2020, terutama pada segmen pengguna kasual yang meningkat pesat.
+
+**Konsistensi Jam Sibuk:** Jam sibuk tetap stabil pada waktu keberangkatan dan kepulangan kantor, yang menegaskan peran Cyclistic sebagai tulang punggung transportasi di kota tersebut.
+
+# Rekomendasi Strategis:
+Fokuskan pemasaran pada konversi pengendara kasual akhir pekan dengan menonjolkan penghematan biaya untuk durasi perjalanan panjang melalui keanggotaan tahunan.
