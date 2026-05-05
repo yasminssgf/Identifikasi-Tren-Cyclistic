@@ -40,19 +40,19 @@ birthyear|Tahun lahir pengguna
 
 Variabel  |Deskripsi |
 -----|-----|
-ride_id|Tingkat kepuasan kerja yang dilaporkan oleh karyawan [0&ndash;1]|
-rideable_type|Skor penilaian kinerja terakhir karyawan [0&ndash;1]|
-started_at|Jumlah proyek yang dikerjakan karyawan|
-ended_at|Rata-rata jumlah jam kerja karyawan per bulan|
-start_station_name|Lama masa kerja karyawan di perusahaan (tahun)
-start_station_id|Apakah karyawan tersebut mengalami kecelakaan saat bekerja atau tidak
-end_station_name|Apakah karyawan tersebut meninggalkan perusahaan atau tidak
-end_station_id|Apakah karyawan tersebut dipromosikan dalam 5 tahun terakhir atau tidak
-start_lat|Departemen karyawan
-start_lng|Gaji karyawan (U.S. dollars)
-end_lat|Gaji karyawan (U.S. dollars)
-end_lng|Gaji karyawan (U.S. dollars)
-member_casual|Gaji karyawan (U.S. dollars)
+ride_id|Kunci unik (ID) untuk setiap perjalanan berupa (string)|
+rideable_type|Menunjukkan identitas atau tipe sepeda yang digunakan (docked_bike)|
+started_at|Tanggal dan jam tepat saat perjalanan dimulai|
+ended_at|Tanggal dan jam tepat saat perjalanan berakhir|
+start_station_name|Nama stasiun tempat pengguna mengambil sepeda
+start_station_id|Kode unik untuk stasiun keberangkatan
+end_station_name|Nama stasiun tempat pengguna mengembalikan sepeda
+end_station_id|Kode unik untuk stasiun tujuan
+start_lat|(Start Latitude) koordinat lintang (garis horizontal bumi) dari posisi stasiun tempat perjalanan dimulai
+start_lng|(Start Longitude) koordinat bujur (garis vertikal bumi) dari posisi stasiun tempat perjalanan dimulai
+end_lat|(End Latitude) koordinat lintang dari posisi stasiun tempat perjalanan berakhir
+end_lng|(End Longitude) koordinat bujur dari posisi stasiun tempat perjalanan berakhir
+member_casual|Kategori keanggotaan pengguna (casual/member)
 
 # Langkah-Langkah Analisis
 
