@@ -40,18 +40,21 @@ birthyear|Gaji karyawan (U.S. dollars)
 
 Variabel  |Deskripsi |
 -----|-----|
-trip_id|Tingkat kepuasan kerja yang dilaporkan oleh karyawan [0&ndash;1]|
-start_time|Skor penilaian kinerja terakhir karyawan [0&ndash;1]|
-end_time|Jumlah proyek yang dikerjakan karyawan|
-bikeid|Rata-rata jumlah jam kerja karyawan per bulan|
-tripduration|Lama masa kerja karyawan di perusahaan (tahun)
-from_station_id|Apakah karyawan tersebut mengalami kecelakaan saat bekerja atau tidak
-from_station_name|Apakah karyawan tersebut meninggalkan perusahaan atau tidak
-to_station_id|Apakah karyawan tersebut dipromosikan dalam 5 tahun terakhir atau tidak
-to_station_name|Departemen karyawan
-usertype|Gaji karyawan (U.S. dollars)
-gender|Gaji karyawan (U.S. dollars)
-birthyear|Gaji karyawan (U.S. dollars)
+ride_id|Tingkat kepuasan kerja yang dilaporkan oleh karyawan [0&ndash;1]|
+rideable_type|Skor penilaian kinerja terakhir karyawan [0&ndash;1]|
+started_at|Jumlah proyek yang dikerjakan karyawan|
+ended_at|Rata-rata jumlah jam kerja karyawan per bulan|
+start_station_name|Lama masa kerja karyawan di perusahaan (tahun)
+start_station_id|Apakah karyawan tersebut mengalami kecelakaan saat bekerja atau tidak
+end_station_name|Apakah karyawan tersebut meninggalkan perusahaan atau tidak
+end_station_id|Apakah karyawan tersebut dipromosikan dalam 5 tahun terakhir atau tidak
+start_lat|Departemen karyawan
+start_lng|Gaji karyawan (U.S. dollars)
+end_lat|Gaji karyawan (U.S. dollars)
+end_lng|Gaji karyawan (U.S. dollars)
+member_casual|Gaji karyawan (U.S. dollars)
+
+# Langkah-Langkah Analisis
 
 **1. Pembersihan dan Manipulasi Data menggunakan spreadsheet**
 
