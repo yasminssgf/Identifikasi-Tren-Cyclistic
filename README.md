@@ -19,6 +19,40 @@ kasual agar menjadi anggota?
 
 Merupakan data perjalanan historis Cyclistic untuk menganalisis dan mengidentifikasi tren, yang merupakan data publik. Dataset yang digunakan, yaitu [Divvy 2019 Q1](https://docs.google.com/spreadsheets/d/1uCTsHlZLm4L7-ueaSLwDg0ut3BP_V4mKDo2IMpaXrk4/template/preview?resourcekey=0-dQAUjAu2UUCsLEQQt20PDA#gid=1797029090) dan [Divvy 2020 Q1](https://docs.google.com/spreadsheets/d/179QVLO_yu5BJEKFVZShsKag74ZaUYIF6FevLYzs3hRc/template/preview#gid=640449855).
 
+# Penjelasan Data Divvy 2019 Q1
+
+Variabel  |Deskripsi |
+-----|-----|
+trip_id|Tingkat kepuasan kerja yang dilaporkan oleh karyawan [0&ndash;1]|
+start_time|Skor penilaian kinerja terakhir karyawan [0&ndash;1]|
+end_time|Jumlah proyek yang dikerjakan karyawan|
+bikeid|Rata-rata jumlah jam kerja karyawan per bulan|
+tripduration|Lama masa kerja karyawan di perusahaan (tahun)
+from_station_id|Apakah karyawan tersebut mengalami kecelakaan saat bekerja atau tidak
+from_station_name|Apakah karyawan tersebut meninggalkan perusahaan atau tidak
+to_station_id|Apakah karyawan tersebut dipromosikan dalam 5 tahun terakhir atau tidak
+to_station_name|Departemen karyawan
+usertype|Gaji karyawan (U.S. dollars)
+gender|Gaji karyawan (U.S. dollars)
+birthyear|Gaji karyawan (U.S. dollars)
+
+# Penjelasan Data Divvy 2020 Q1
+
+Variabel  |Deskripsi |
+-----|-----|
+trip_id|Tingkat kepuasan kerja yang dilaporkan oleh karyawan [0&ndash;1]|
+start_time|Skor penilaian kinerja terakhir karyawan [0&ndash;1]|
+end_time|Jumlah proyek yang dikerjakan karyawan|
+bikeid|Rata-rata jumlah jam kerja karyawan per bulan|
+tripduration|Lama masa kerja karyawan di perusahaan (tahun)
+from_station_id|Apakah karyawan tersebut mengalami kecelakaan saat bekerja atau tidak
+from_station_name|Apakah karyawan tersebut meninggalkan perusahaan atau tidak
+to_station_id|Apakah karyawan tersebut dipromosikan dalam 5 tahun terakhir atau tidak
+to_station_name|Departemen karyawan
+usertype|Gaji karyawan (U.S. dollars)
+gender|Gaji karyawan (U.S. dollars)
+birthyear|Gaji karyawan (U.S. dollars)
+
 **1. Pembersihan dan Manipulasi Data menggunakan spreadsheet**
 
 Adapun langkah-langkah yang dilakukan:
