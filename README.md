@@ -86,6 +86,10 @@ Langkah-langkah melakukan analisis deskriptif:
 * Menghitung rata-rata ride_length untuk pengguna berdasarkan day_of_week. Tentukan  columns = day_of_week, Rows = member_casual, Values = Average of ride_length.
 * Menghitung jumlah perjalanan untuk pengguna berdasarkan day_of_week dengan menambahkan Count dari trip_id ke Values.
 
+# Hasil
+Hasil yang diperoleh dapat dilihat pada link spreadsheet berikut: 
+[Divvy 2019 Q1](https://docs.google.com/spreadsheets/d/1kRMJ2Wu_otZisDi_1mPgFtWbexbR1TTx/edit?usp=sharing&ouid=106572204922943761416&rtpof=true&sd=true) dan
+[Divvy 2020 Q1](https://docs.google.com/spreadsheets/d/1kRMJ2Wu_otZisDi_1mPgFtWbexbR1TTx/edit?usp=sharing&ouid=106572204922943761416&rtpof=true&sd=true)
 
 # Perbedaan antara Anggota Tahunan dan Pengendara Kasual
 Analisis menunjukkan perbedaan perilaku yang sangat kontras antara kedua kelompok:
