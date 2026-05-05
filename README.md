@@ -53,7 +53,7 @@ Langkah-langkah melakukan analisis deskriptif:
 # Perbedaan antara Anggota Tahunan dan Pengendara Kasual
 Analisis menunjukkan perbedaan perilaku yang sangat kontras antara kedua kelompok:
 
-**Durasi Perjalanan:** Pengendara kasual memiliki rata-rata durasi perjalanan yang jauh lebih lama, yaitu sekitar 84,87 menit, dibandingkan dengan anggota (member) yang hanya rata-rata 13,25 menit. Hal ini menunjukkan pengendara kasual cenderung menggunakan sepeda untuk rekreasi, sementara anggota menggunakannya untuk transportasi efisien (commuting).
+**Durasi Perjalanan:** Pengendara kasual memiliki rata-rata durasi perjalanan yang jauh lebih lama baik di tahun 2019 maupun 2020, yaitu sekitar 61,94 dan 95,83 menit, dibandingkan dengan anggota (member) yang hanya rata-rata 13,89 dan 12,67 menit. Hal ini menunjukkan pengendara kasual cenderung menggunakan sepeda untuk rekreasi, sementara anggota menggunakannya untuk transportasi efisien (commuting).
 
 **Pola Mingguan:** Anggota memiliki jumlah perjalanan yang tinggi secara konsisten pada hari kerja (Senin-Jumat), sedangkan pengendara kasual menunjukkan peningkatan aktivitas yang signifikan pada akhir pekan (Hari 1/Minggu dan Hari 7/Sabtu).
 
