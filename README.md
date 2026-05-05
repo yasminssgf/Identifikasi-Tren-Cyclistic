@@ -23,18 +23,18 @@ Merupakan data perjalanan historis Cyclistic untuk menganalisis dan mengidentifi
 
 Variabel  |Deskripsi |
 -----|-----|
-trip_id|Tingkat kepuasan kerja yang dilaporkan oleh karyawan [0&ndash;1]|
-start_time|Skor penilaian kinerja terakhir karyawan [0&ndash;1]|
-end_time|Jumlah proyek yang dikerjakan karyawan|
-bikeid|Rata-rata jumlah jam kerja karyawan per bulan|
-tripduration|Lama masa kerja karyawan di perusahaan (tahun)
-from_station_id|Apakah karyawan tersebut mengalami kecelakaan saat bekerja atau tidak
-from_station_name|Apakah karyawan tersebut meninggalkan perusahaan atau tidak
-to_station_id|Apakah karyawan tersebut dipromosikan dalam 5 tahun terakhir atau tidak
-to_station_name|Departemen karyawan
-usertype|Gaji karyawan (U.S. dollars)
-gender|Gaji karyawan (U.S. dollars)
-birthyear|Gaji karyawan (U.S. dollars)
+trip_id|Kunci unik (ID) untuk setiap perjalanan berupa angka (integer)|
+start_time|Tanggal dan jam tepat saat perjalanan dimulai|
+end_time|Tanggal dan jam tepat saat perjalanan berakhir|
+bikeid|Kunci unik (ID) menunjukkan identitas atau tipe sepeda yang digunakan|
+tripduration|Lama waktu yang dihabiskan pengguna sejak sepeda diambil dari stasiun keberangkatan hingga dikembalikan ke stasiun tujuan
+from_station_id|Kode unik untuk stasiun keberangkatan
+from_station_name|Nama stasiun tempat pengguna mengambil sepeda
+to_station_id|Kode unik untuk stasiun tujuan
+to_station_name|Nama stasiun tempat pengguna mengembalikan sepeda
+usertype|Kategori keanggotaan pengguna (Subscriber/Customer)
+gender|Jenis kelamin pengguna (Male/Female)
+birthyear|Tahun lahir pengguna
 
 # Penjelasan Data Divvy 2020 Q1
 
@@ -88,8 +88,8 @@ Langkah-langkah melakukan analisis deskriptif:
 
 # Hasil
 Hasil yang diperoleh dapat dilihat pada link spreadsheet berikut: 
-[Divvy_trips_2019_Q1](https://docs.google.com/spreadsheets/d/1kRMJ2Wu_otZisDi_1mPgFtWbexbR1TTx/edit?usp=sharing&ouid=106572204922943761416&rtpof=true&sd=true) dan
-[Divvy_trips_2020_Q1](https://docs.google.com/spreadsheets/d/1IxdXgaabMAfstsTHosQETdsfcK0ipNHe/edit?usp=sharing&ouid=106572204922943761416&rtpof=true&sd=true)
+[Divvy_Trips_2019_Q1](https://docs.google.com/spreadsheets/d/1kRMJ2Wu_otZisDi_1mPgFtWbexbR1TTx/edit?usp=sharing&ouid=106572204922943761416&rtpof=true&sd=true) dan
+[Divvy_Trips_2020_Q1](https://docs.google.com/spreadsheets/d/1IxdXgaabMAfstsTHosQETdsfcK0ipNHe/edit?usp=sharing&ouid=106572204922943761416&rtpof=true&sd=true)
 
 # Perbedaan antara Anggota Tahunan dan Pengendara Kasual
 Analisis menunjukkan perbedaan perilaku yang sangat kontras antara kedua kelompok:
