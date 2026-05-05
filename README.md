@@ -72,9 +72,31 @@ Media digital dapat digunakan untuk menargetkan segmen kasual berdasarkan temuan
 **Pesan "Rekreasi ke Komuter":** Menggunakan media sosial untuk membagikan konten tentang kemudahan menggunakan Cyclistic untuk bekerja, menargetkan mereka yang saat ini hanya menggunakannya untuk durasi lama di akhir pekan.
 
 # Tren Sejarah Cyclistic (Q1 2019 vs Q1 2020)
-Pertumbuhan Pengguna: Terdapat tren peningkatan jumlah perjalanan dari tahun 2019 ke 2020, terutama pada segmen pengguna kasual yang meningkat pesat.
+**Pertumbuhan Pengguna:** Terdapat tren peningkatan jumlah perjalanan dari tahun 2019 ke 2020, terutama pada segmen pengguna kasual yang meningkat pesat.
 
 **Konsistensi Jam Sibuk:** Jam sibuk tetap stabil pada waktu keberangkatan dan kepulangan kantor, yang menegaskan peran Cyclistic sebagai tulang punggung transportasi di kota tersebut.
 
 # Rekomendasi Strategis:
-Fokuskan pemasaran pada konversi pengendara kasual akhir pekan dengan menonjolkan penghematan biaya untuk durasi perjalanan panjang melalui keanggotaan tahunan.
+
+Berdasarkan analisis mendalam terhadap data perjalanan Cyclistic Q1 2019 dan Q1 2020, berikut dijabarkan tiga rekomendasi utama untuk mendorong konversi pengendara casual menjadi anggota tahunan. Rekomendasi ini memfokuskan pemasaran pada konversi pengendara kasual akhir pekan dengan menonjolkan penghematan biaya untuk durasi perjalanan panjang melalui keanggotaan tahunan.
+
+1. Kampanye "Weekend Warrior" yang Tersegmentasi
+Analisis menunjukkan bahwa pengendara casual mendominasi penggunaan pada akhir pekan dengan durasi perjalanan yang cukup lama.
+
+**Strategi:** Luncurkan promosi digital khusus yang menargetkan pengguna yang sering berkendara pada hari Sabtu dan Minggu.
+
+**Pesan Utama:** Tawarkan keanggotaan tahunan dengan narasi penghematan biaya untuk durasi perjalanan panjang, sehingga pengendara casual merasa keanggotaan lebih menguntungkan daripada membayar biaya per perjalanan di setiap akhir pekan.
+
+2. Paket Transisi
+Meskipun pengguna casual cenderung rekreasi, terdapat volume perjalanan yang cukup konsisten pada jam sibuk pagi (08:00) dan sore (17:00).
+
+**Strategi:** Berikan penawaran terbatas bagi pengguna casual yang terdeteksi melakukan perjalanan pada hari kerja (Senin-Jumat) selama jam sibuk.
+
+**Pesan Utama:** Tekankan kenyamanan dan efisiensi Cyclistic sebagai alat transportasi rutin ke kantor dengan biaya bulanan yang lebih murah dibandingkan moda transportasi lain.
+
+3. Optimalisasi Pemasaran Digital pada Jam Puncak
+Data menunjukkan tren puncak penggunaan yang stabil pada pukul 17:00 sore.
+
+**Strategi:** Tingkatkan visibilitas iklan di media sosial dan aplikasi pada jendela waktu jam pulang kantor (pukul 16:00 - 18:00).
+
+**Pesan Utama:** Gunakan konten visual yang menunjukkan kemudahan akses sepeda Cyclistic saat kemacetan sore hari terjadi, dengan ajakan bertindak (call-to-action) untuk mendaftar menjadi anggota agar proses peminjaman lebih cepat dan murah.
